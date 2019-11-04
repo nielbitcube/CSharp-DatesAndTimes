@@ -22,7 +22,7 @@ namespace SessionBuilder.Web.Pages
 
             var offset = TimeSpan.FromHours(-11);
 
-            DateTimeOffset.UtcNow.ToUnixTimeSeconds()
+            DateTimeOffset.UtcNow.ToUnixTimeSeconds();
 
             foreach (var session in speaker.Sessions)
             {
